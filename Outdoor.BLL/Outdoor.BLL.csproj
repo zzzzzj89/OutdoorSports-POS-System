@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiniExcel" Version="1.42.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Outdoor.DAL\Outdoor.DAL.csproj" />
+    <ProjectReference Include="..\Outdoor.Models\Outdoor.Models.csproj" />
+  </ItemGroup>
+
+</Project>
